@@ -1,11 +1,10 @@
 
-  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
 
 .about-company {
     display: flex;
 
     gap: 0.75rem;
-    width: 12rem;
+    
     align-items: center;
 }
 .company-name{
@@ -18,13 +17,13 @@
 
 }
 .img-logo{
-    width: 39px;
-    height: 39px;
+    width: 2.5rem;
+    height: 2.5rem;
     border-radius: 0.25rem;
 }
 .name {
     color: white;
-font-size: 15px;
+font-size: 0.8rem;
 font-family: 'Inter',sans-serif;
 font-weight: 500;
 line-height: 22px;
@@ -33,7 +32,7 @@ word-wrap: break-word;
 .visit{
 color:  #FFF;
 font-family: "Inter";
-font-size: 0.8125rem;
+font-size: 0.8rem;
 font-style: normal;
 font-weight: 400;
 line-height: 1rem; /* 123.077% */

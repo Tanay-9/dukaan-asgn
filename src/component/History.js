@@ -6,7 +6,7 @@ const History = () => {
     <>
     <div className='details'>
         <div className='heading'>
-            <h1>Transaction|This month</h1>
+            <p>Transaction | This month</p>
         </div>
         <div className='items-and-search'>
             <div className='orderId-filter'>
@@ -55,10 +55,10 @@ const History = () => {
 </svg>
                         </div>
                         <div className='order-amount'>
-                            <p>Order amount</p>
+                            <p>Order amt</p>
                         </div>
                         <div className='order-fees'>
-                            <p>Transaction fees</p>
+                            <p>Transact fees</p>
                             <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none">
   <g clip-path="url(#clip0_0_5817)">
     <path fill-rule="evenodd" clip-rule="evenodd" d="M7.0002 1.63353C4.03627 1.63353 1.63353 4.03627 1.63353 7.0002C1.63353 9.96412 4.03627 12.3669 7.0002 12.3669C9.96412 12.3669 12.3669 9.96412 12.3669 7.0002C12.3669 4.03627 9.96412 1.63353 7.0002 1.63353ZM0.700195 7.0002C0.700195 3.5208 3.5208 0.700195 7.0002 0.700195C10.4796 0.700195 13.3002 3.5208 13.3002 7.0002C13.3002 10.4796 10.4796 13.3002 7.0002 13.3002C3.5208 13.3002 0.700195 10.4796 0.700195 7.0002Z" fill="#4D4D4D"/>
@@ -75,8 +75,39 @@ const History = () => {
                 </div>
              
             </div>
-            <Data/>
+            {Array.from({ length: 10 }, (_, index) => (
+        <Data key={index} />
+      ))
+              
+            }
+   
+    <div className='pagination'>
+        <div className='main-pagination'>
+            <div className='previous sort'>
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
+  <path fill-rule="evenodd" clip-rule="evenodd" d="M11.7803 3.96967C11.4874 3.67678 11.0126 3.67678 10.7197 3.96967L6.21967 8.46967C6.07902 8.61032 6 8.80109 6 9C6 9.19891 6.07902 9.38968 6.21967 9.53033L10.7197 14.0303C11.0126 14.3232 11.4874 14.3232 11.7803 14.0303C12.0732 13.7374 12.0732 13.2626 11.7803 12.9697L7.81066 9L11.7803 5.03033C12.0732 4.73744 12.0732 4.26256 11.7803 3.96967Z" fill="#4D4D4D"/>
+            </svg>
+                <p>Previous</p>
+            </div>
+            <div className='number'>
+                <span>1</span>
+                <span>...</span>
+                <span>10</span>
+                <span>11</span>
+                <span>12</span>
+                <span>13</span>
+                <span>14</span>
+            </div>
+            <div className='previous sort'>
+            <p>Next</p>
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
+  <path fill-rule="evenodd" clip-rule="evenodd" d="M6.21967 3.96967C6.51256 3.67678 6.98744 3.67678 7.28033 3.96967L11.7803 8.46967C11.921 8.61032 12 8.80109 12 9C12 9.19891 11.921 9.38968 11.7803 9.53033L7.28033 14.0303C6.98744 14.3232 6.51256 14.3232 6.21967 14.0303C5.92678 13.7374 5.92678 13.2626 6.21967 12.9697L10.1893 9L6.21967 5.03033C5.92678 4.73744 5.92678 4.26256 6.21967 3.96967Z" fill="#4D4D4D"/>
+</svg>
+                
+            </div>
         </div>
+    </div>
+    </div>
     </div>
     </>
   )

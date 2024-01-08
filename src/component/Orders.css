@@ -28,7 +28,7 @@
     line-height: 1.75rem;
 }
 .month-item>h1{
-    color: var(--Black-30, #4D4D4D);
+    color:  #4D4D4D;
     font-family: "Inter";
     font-size: 1rem;
     font-style: normal;
@@ -67,16 +67,16 @@ box-shadow: 0px 2px 6px 0px rgba(26, 24, 30, 0.2);
     align-self: stretch;
 }
 .inner-element p{
-    font-size: 14px;
+    font-size: 0.8rem;
     font-weight: 400;
     font-style: normal;
     color: #4D4D4D;
-    line-height: 1.5;
+    line-height: 1.5rem;
 }
 .inner-element h1{
-    font-size: 36px;
+    font-size: 1.5rem;
     font-weight: 600;
     font-style: normal;
     color: #1A181E;
-    line-height: 2.375rem;
+    line-height: 2.0rem;
 }
