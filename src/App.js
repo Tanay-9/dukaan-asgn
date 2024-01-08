@@ -1,7 +1,6 @@
-import Dashboard from "./pages/Navbar/Dashboard";
-
-import Navbar from "./pages/Navbar/Navbar";
-import Transactions from "./pages/Navbar/Transactions";
+import Dashboard from "./pages/main-page/Dashboard";
+import Navbar from "./pages/main-page/Navbar";
+import Transactions from "./pages/main-page/Transactions"
 function App() {
   return (
     <>
