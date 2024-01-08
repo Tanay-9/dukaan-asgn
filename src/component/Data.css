@@ -1,0 +1,29 @@
+.databar{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    width: 70.5rem;
+    height: 3rem;
+    padding: 0.875rem 0.75rem;
+    align-items: center;
+    font-family: "Inter",sans-serif;
+
+   
+    gap: 2.5rem;
+    background: #fff;
+}
+.databar p {
+    color: var(--Black-30, #4D4D4D);
+    font-family: "Inter";
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.25rem; 
+}
+.dataid>p{
+    color: #146EB4;
+    font-size: 0.875rem;
+    font-weight: 500;
+    line-height: 1.25rem;
+
+}
+

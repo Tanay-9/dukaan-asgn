@@ -1,0 +1,41 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+
+.about-company {
+    display: flex;
+
+    gap: 0.75rem;
+    width: 12rem;
+    align-items: center;
+}
+.company-name{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 0.25rem;
+    flex: 1 0 0;
+
+}
+.img-logo{
+    width: 39px;
+    height: 39px;
+    border-radius: 0.25rem;
+}
+.name {
+    color: white;
+font-size: 15px;
+font-family: 'Inter',sans-serif;
+font-weight: 500;
+line-height: 22px;
+word-wrap: break-word;
+}
+.visit{
+color:  #FFF;
+font-family: "Inter";
+font-size: 0.8125rem;
+font-style: normal;
+font-weight: 400;
+line-height: 1rem; /* 123.077% */
+text-decoration-line: underline;
+}

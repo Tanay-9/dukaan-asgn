@@ -1,0 +1,18 @@
+.main-page{
+display: flex;
+flex-direction: row;
+width: 13rem;
+padding: 0.5rem 1rem;
+align-items: center;
+gap: 0.75rem;
+}
+.page-name{
+    color: var(--Black-100, #FFF);
+
+/* Body 2/Medium */
+font-family: "Inter",sans-serif;
+font-size: 0.875rem;
+font-style: normal;
+font-weight: 500;
+line-height: 1.25rem; /* 142.857% */
+}

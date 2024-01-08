@@ -1,0 +1,15 @@
+.navbar-main{
+    height: 1482px;
+    width: 224px;
+    background-color: #1E2640;
+    
+}
+.navbar-inner{
+    padding: 16px 10px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    flex: 1 0 0;
+}
