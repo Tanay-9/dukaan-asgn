@@ -6,20 +6,24 @@
 }
 .flex{
   display: flex;
+  width: 100%;
 
 }
 body{
-  height: fit-content;
-  width: fit-content;
-  overflow-x: hidden;
-
+  overflow-x: auto;
 }
-.flex1{
+@media (max-width:880px) {
+  body{
+    background-color: pink;
+  }
+}
+.flex1 {
   display: flex;
   flex-direction: column;
   gap: 2rem;
-  width: calc(100vw - 14rem);
-
+  /* overflow-y: scroll; */
+  width: 100%;
 }
+
 
 

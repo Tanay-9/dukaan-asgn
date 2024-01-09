@@ -1,4 +1,5 @@
 .dashboard-main{
+    width: 100%;
    display: grid;
    grid-template-columns:1fr 1fr 1fr;
     padding: 0.875rem 1rem;
@@ -8,12 +9,22 @@
     border-bottom: 1px solid #D9D9D9;
     background: #fff;
 }
+@media (max-width:382px) {
+  .dashboard-main {
+    padding: 0;
+    gap: 0.2rem;
+  }
+  
+}
+
+  
 .about-payments{
     
     display: flex;
     align-items: center;
     gap: 1rem;
 }
+
 .payments>p{
     font-family: 'Inter',sans-serif;
     color: #1A181E;
@@ -41,6 +52,14 @@
     padding: 0.5rem 1rem;
     align-items: center;
     gap: 0.75rem;
+}
+@media (max-width:352px){
+  .about-payments{
+    gap: 0rem;
+  }
+  .search{
+    padding: 0.2rem;
+  }
 }
 .search>p{
 color: #808080;

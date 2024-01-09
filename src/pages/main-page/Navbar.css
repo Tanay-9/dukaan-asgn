@@ -5,6 +5,7 @@
     overflow:auto;
    
 }
+
 .navbar-inner{
     padding: 1rem 0.625rem;
     height: 100%;
@@ -17,16 +18,8 @@
 }
 
 
-
-@media (max-width: 880px) {
-    .navbar-main {
-        width: 10rem;
-    }
-}
-
-
-@media (max-width: 952px) {
-    .navbar-main {
-        width: 12rem;
+@media (max-width:752px) {
+    .navbar-main{
+        display: none;
     }
 }

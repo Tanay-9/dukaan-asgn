@@ -5,3 +5,10 @@
     gap: 2rem;
     
 }
+
+@media (max-width:482px) {
+    .transact-parent{
+        padding: 0.5rem;
+        gap: 1rem;
+    }
+}

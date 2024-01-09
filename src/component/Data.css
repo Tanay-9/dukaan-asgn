@@ -10,6 +10,13 @@
     background: #fff;
     border-bottom: 2px solid #F2F2F2;
 }
+@media (max-width:352px){
+    .databar{
+    height:fit-content;
+    padding: 0.5rem;
+    gap : 1.5rem
+}
+}
 .databar p {
     color: #4D4D4D;
     font-family: "Inter";
