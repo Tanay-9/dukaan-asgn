@@ -53,7 +53,7 @@
     align-items: center;
     gap: 0.75rem;
 }
-@media (max-width:352px){
+@media (max-width:360px){
   .about-payments{
     gap: 0rem;
   }
