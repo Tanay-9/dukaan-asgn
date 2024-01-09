@@ -1,11 +1,17 @@
 import React from 'react'
 import './Dashboard.css'
+import { GiHamburgerMenu } from "react-icons/gi";
+import { RxCross2 } from "react-icons/rx";
 
 
-const Dashboard = () => {
+const Dashboard = ({ toggleOpen,isOpen }) => {
+
   return (
     <>
     <div className='dashboard-main'>
+      <div className='hamburger hidden'>
+        <GiHamburgerMenu onClick={toggleOpen}/>
+      </div>
         <div className='about-payments'>
             <div className='payments'>
                 <p>Payments</p>
@@ -41,7 +47,13 @@ const Dashboard = () => {
         <p>Search features, tutorials, etc</p>
         </div>
         <div className='others'>
-        <div class='other-icon'>
+          
+       
+        {isOpen ? (
+  <RxCross2 onClick={toggleOpen} />
+) : (
+  <>
+     <div class='other-icon'>
         <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40" fill="none">
             
             <circle cx="20" cy="20" r="20" fill="#E6E6E6"/>
@@ -64,7 +76,11 @@ const Dashboard = () => {
             </clipPath>
         </defs>
         </svg>
+  </>
+)}
+
         </div>
+       
     </div>
     </>
   )
